@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetHttpDownloadLink", "GetHttpDownloadLink\GetHttpDownloadLink.csproj", "{F932423D-9A92-4678-BAFB-FF3F42CD2176}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownLinkTransfer", "DownLinkTransfer\DownLinkTransfer.csproj", "{F3E8F856-C8A5-4B0D-8447-708A65D4094D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownLinkConverter", "DownLinkConverter\DownLinkConverter.csproj", "{F3E8F856-C8A5-4B0D-8447-708A65D4094D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownLinkTransferTest", "DownLinkTransferTest\DownLinkTransferTest.csproj", "{FA55627E-4E8A-410C-80B5-F3E5F0E3643B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownLinkConverterTest", "DownLinkConverter.Tests\DownLinkConverterTest.csproj", "{FA55627E-4E8A-410C-80B5-F3E5F0E3643B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

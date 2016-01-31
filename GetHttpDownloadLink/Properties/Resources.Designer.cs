@@ -80,7 +80,7 @@ namespace GetHttpDownloadLink.Properties {
         }
         
         /// <summary>
-        ///   查找类似 将QQ旋风,网际快车，迅雷的下载网址用&apos;,&apos;分割，点击执行 的本地化字符串。
+        ///   查找类似 将QQ旋风,网际快车，迅雷的下载网址用&apos;,&apos;分割，点击运行 的本地化字符串。
         /// </summary>
         internal static string Help {
             get {

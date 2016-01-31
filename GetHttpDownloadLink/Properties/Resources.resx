@@ -127,7 +127,7 @@
     <value>帮助</value>
   </data>
   <data name="Help" xml:space="preserve">
-    <value>将QQ旋风,网际快车，迅雷的下载网址用','分割，点击执行</value>
+    <value>将QQ旋风,网际快车，迅雷的下载网址用','分割，点击运行</value>
   </data>
   <data name="output" xml:space="preserve">
     <value>输出</value>

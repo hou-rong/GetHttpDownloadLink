@@ -1,7 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 
-namespace DownLinkTransfer.Tests
+namespace DownLinkConverter.Tests
 {
     [TestClass()]
     public class GetHttpLinkTests
@@ -13,21 +12,21 @@ namespace DownLinkTransfer.Tests
         [TestMethod()]
         public void FromQqDownloadReturnTrueTest()
         {
-            string result = String.Empty;
+            string result;
             Assert.IsTrue(GetHttpLink.FromQqDownload(qqDownloadLink, out result));
         }
 
         [TestMethod()]
         public void FromQqDownloadReturnFalseTest()
         {
-            string result = String.Empty;
+            string result;
             Assert.IsFalse(GetHttpLink.FromQqDownload(flashgetDownloadLink, out result));
         }
 
         [TestMethod()]
         public void FromQqDownloadResultTest()
         {
-            string result = String.Empty;
+            string result;
             GetHttpLink.FromQqDownload(qqDownloadLink, out result);
             Assert.AreEqual(httpDownloadLink, result);
         }
@@ -35,21 +34,21 @@ namespace DownLinkTransfer.Tests
         [TestMethod()]
         public void FromFlashGetReturnTrueTest()
         {
-            string result = String.Empty;
+            string result;
             Assert.IsTrue(GetHttpLink.FromFlashGet(flashgetDownloadLink, out result));
         }
 
         [TestMethod()]
         public void FromFlashGetReturnFalseTest()
         {
-            string result = String.Empty;
+            string result;
             Assert.IsFalse(GetHttpLink.FromFlashGet(qqDownloadLink, out result));
         }
 
         [TestMethod()]
         public void FromFlashGetResultTest()
         {
-            string result = String.Empty;
+            string result;
             GetHttpLink.FromFlashGet(flashgetDownloadLink, out result);
             Assert.AreEqual(httpDownloadLink, result);
         }
@@ -57,21 +56,21 @@ namespace DownLinkTransfer.Tests
         [TestMethod()]
         public void FromThunderReturnTrueTest()
         {
-            string result = String.Empty;
+            string result;
             Assert.IsTrue(GetHttpLink.FromThunder(thunderDownloadLink, out result));
         }
 
         [TestMethod()]
         public void FromThunderReturnFalseTest()
         {
-            string result = String.Empty;
+            string result;
             Assert.IsFalse(GetHttpLink.FromThunder(qqDownloadLink, out result));
         }
 
         [TestMethod()]
         public void FromThunderResultTest()
         {
-            string result = String.Empty;
+            string result;
             GetHttpLink.FromThunder(thunderDownloadLink, out result);
             Assert.AreEqual(httpDownloadLink, result);
         }

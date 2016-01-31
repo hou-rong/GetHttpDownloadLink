@@ -5,5 +5,5 @@
 
 ### 结构
 - GetHttpDownloadLink  *图形界面*
-- DownloadLinkTransfer *字符串转换函数类*
-- DownloadLinkTransferTest *DownloadLinkTransfer的单元测试*
+- DownloadLinkConverter *字符串转换函数类*
+- DownloadLinkConverterTest *DownloadLinkTransfer的单元测试*

@@ -6,25 +6,25 @@ namespace GetHttpDownloadLink
 {
     public partial class HelpForm : Form
     {
-        private GetHttpDownloadLinkForm mainForm;
+        private readonly GetHttpDownloadLinkForm _mainForm;
         public HelpForm(GetHttpDownloadLinkForm mainForm)
         {
-            this.mainForm = mainForm;
+            _mainForm = mainForm;
             InitializeComponent();
         }
 
         private void HelpForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = true;
-            this.Hide();
-            mainForm.Location = this.Location;
-            mainForm.Show();
+            Hide();
+            _mainForm.Location = Location;
+            _mainForm.Show();
         }
 
         private void HelpForm_Load(object sender, EventArgs e)
         {
-            this.Location = mainForm.Location;
-            this.Text = Resources.HelpForm;
+            Location = _mainForm.Location;
+            Text = Resources.HelpForm;
         }
     }
 }

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using DownLinkTransfer;
+using DownLinkConverter;
 using GetHttpDownloadLink.Properties;
 
 namespace GetHttpDownloadLink
 {
     public partial class GetHttpDownloadLinkForm : Form
     {
-        private HelpForm helpForm;
+        private HelpForm _helpForm;
         public GetHttpDownloadLinkForm()
         {
             InitializeComponent();
@@ -22,7 +22,7 @@ namespace GetHttpDownloadLink
             btnRun.Text = Resources.run;
             btnHelp.Text = Resources.btnHelp;
             Text = Resources.MainForm;
-            helpForm = new HelpForm(this);
+            _helpForm = new HelpForm(this);
         }
 
         private string GetDownLinks()
@@ -71,13 +71,13 @@ namespace GetHttpDownloadLink
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            helpForm.Show();
+            Hide();
+            _helpForm.Show();
         }
 
         private void GetHttpDownloadLinkForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            helpForm.Close();
+            _helpForm.Close();
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace DownLinkTransfer
+namespace DownLinkConverter
 {
     public class GetHttpLink
     {

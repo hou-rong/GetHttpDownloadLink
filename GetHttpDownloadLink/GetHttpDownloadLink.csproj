@@ -90,13 +90,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DownLinkTransfer\DownLinkTransfer.csproj">
-      <Project>{f3e8f856-c8a5-4b0d-8447-708a65d4094d}</Project>
-      <Name>DownLinkTransfer</Name>
-    </ProjectReference>
+    <None Include="Resources\GetHttpDownloadLinkHelp.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GetHttpDownloadLinkHelp.png" />
+    <ProjectReference Include="..\DownLinkConverter\DownLinkConverter.csproj">
+      <Project>{f3e8f856-c8a5-4b0d-8447-708a65d4094d}</Project>
+      <Name>DownLinkConverter</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
