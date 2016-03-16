@@ -7,3 +7,7 @@
 - GetHttpDownloadLink  *图形界面*
 - DownloadLinkConverter *字符串转换函数类*
 - DownloadLinkConverterTest *DownloadLinkTransfer的单元测试*
+
+### 运行界面及帮助
+![运行界面](https://raw.githubusercontent.com/nmghr9/GetHttpDownloadLink/master/Image/GetHttpDownLoadLink.png)
+![帮助](https://raw.githubusercontent.com/nmghr9/GetHttpDownloadLink/master/Image/GetHttpDownloadLink_Help.png)
